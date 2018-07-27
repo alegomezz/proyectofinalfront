@@ -24,7 +24,8 @@ class Buscador extends Component {
           ref={input => this.search = input}
           onChange={this.handleInputChange}
           />
-        </form>
+          </form>
+
       </div>
     );
 

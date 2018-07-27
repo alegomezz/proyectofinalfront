@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Tarjetas from './components/tarjetas/Tarjetas';
 import Buscador from './components/buscador/Buscador';
-import Navegador from './components/navegador/Navegador';
+import Boton from './components/boton/Boton';
 import logo from './easylogo.png';
 
 
@@ -20,8 +20,7 @@ class App extends Component {
         </p>
 
 
-        <Navegador/>
-       <Buscador/>
+       <Buscador/> <Boton/>
        <Tarjetas/>
       </div>
     );
