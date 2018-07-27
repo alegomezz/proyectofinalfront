@@ -20,7 +20,7 @@ class Buscador extends Component {
     return(
       <div>
         <form action="">
-          <input place holder = "Tú ubicación..." 
+          <input placeholder = "" className="buscador"
           ref={input => this.search = input}
           onChange={this.handleInputChange}
           />
