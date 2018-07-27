@@ -4,7 +4,10 @@ import Buscador from './components/buscador/Buscador';
 import Boton from './components/boton/Boton';
 // import Resultados from './components/resultados/Resultados';
 import logo from './easylogo.png';
+import Resultados from './components/resultados/Resultados';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import {Link, Route, Router} from 'react-router';
+
 
 
 class App extends Component {
@@ -24,6 +27,7 @@ class App extends Component {
         <p className="App-intro text-white">
           Sé parte de la comunidad EasyAdopt. Encuentra patitas cerca de ti en busqueda de una foreverhome.
         </p>
+<<<<<<< HEAD
 
 
        <Buscador/> 
@@ -33,6 +37,12 @@ class App extends Component {
       </div>
       <Tarjetas/>
      
+=======
+        <Buscador/>
+          </div> 
+
+       <Tarjetas/>
+>>>>>>> 77a36b6d3eb48a16189c35d61a43198c4d999275
       </div>
     );
   }

@@ -1,8 +1,17 @@
 import React, {Component} from 'react';
 import './Tarjetas.css';
+<<<<<<< HEAD
 import mujer from './1.jpg';
 import viejitos from './2.jpg';
 import family from './3.jpg';
+=======
+import mujer from './mujer.jpg';
+import viejitos from './viejitos.jpg';
+import family from './famiily.jpg';
+import {Switch, Route} from 'react-router-dom';
+import {Boton} from '../boton/Boton';
+import {Resultados} from '../resultados/Resultados';
+>>>>>>> 77a36b6d3eb48a16189c35d61a43198c4d999275
 
 
 class Tarjetas extends Component {
@@ -10,7 +19,11 @@ class Tarjetas extends Component {
        var Carousel = require ('react-bootstrap/lib/Carousel');
          return(
             <div>
-                    <Carousel>
+              <Switch>
+                <Route  path="/boton" component="Boton"/>
+                <Route  path="/resultados" component="Resultados"/>
+              </Switch>
+                    {/* <Carousel>
             <Carousel.Item>
                 <img className="carrousel-item" src={viejitos} />
                     <Carousel.Caption>
@@ -33,7 +46,7 @@ class Tarjetas extends Component {
                     </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-      
+       */}
             </div>
         
        
