@@ -12,7 +12,7 @@ class Boton extends Component {
         
 
         
-          <Button bsStyle="primary"> Primary </Button>
+          <Button bsStyle="primary"> Buscar </Button>
    
 
       </div>

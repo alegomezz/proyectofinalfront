@@ -5,7 +5,7 @@ body {
 }
 .slogan{
   background:#1ABDFF;
-  padding: 15px;
+  padding: 10px;
 }
 .App-logo {
   width: 25%;
@@ -14,7 +14,6 @@ body {
    color: #fff;
  }
  .App-title {
-  font-size: 40px;
   margin: 15px;
 }
 
@@ -23,8 +22,24 @@ body {
   margin: 15px;
 }
 .buscador{
-  width: 30%;
+width: 30%;
 outline: 0;
 border-radius: 5px;
 border: none;
+font-size: 16px;
+color: #1ABDFF;
+padding:5px 15px;
+text-align: center;
+}
+.carrousel-item{
+  width: 100%;
+}
+.title-carousel{
+  color: #fff;
+  text-shadow: 5px 5px 10px #000;
+}
+.text-carousel{
+color: #fff;
+font-size: 20px;
+text-shadow: 5px 5px 10px #000;
 }
