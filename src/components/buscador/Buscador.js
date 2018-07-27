@@ -24,8 +24,8 @@ class Buscador extends Component {
           ref={input => this.search = input}
           onChange={this.handleInputChange}
           />
-          <p>{this.state.query}</p>
-        </form>
+          </form>
+
       </div>
     );
 
