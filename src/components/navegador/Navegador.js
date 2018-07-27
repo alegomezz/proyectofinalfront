@@ -1,1 +1,38 @@
-//aqui va nav bar
+import React, {Component} from 'react';
+import axios from 'axios';
+import './Navegador.css';
+
+
+class Navegador extends Component {
+/*     var Navbar = require ('react-bootstrap/lib/Navbar');
+ */
+  render(){
+
+    return(
+      <div>
+ {/*        <Navbar>
+        <Navbar.Header>
+            <Navbar.Brand>
+            <a href="#home">Brand</a>
+            </Navbar.Brand>
+            <Navbar.Toggle />
+        </Navbar.Header>
+        <Navbar.Collapse>
+            <Navbar.Text>
+            Signed in as: <Navbar.Link href="#">Mark Otto</Navbar.Link>
+            </Navbar.Text>
+            <Navbar.Text pullRight>Have a great day!</Navbar.Text>
+        </Navbar.Collapse>
+        </Navbar>;     */} 
+     </div>
+    );
+
+  };
+
+};
+
+      
+
+ 
+
+export default Navegador;
